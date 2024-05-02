@@ -19,7 +19,6 @@ const GeminiBody = () => {
     input,
     setInput,
   } = useContext(Context);
-  console.log(loading, "loading");
   return (
     <div className="flex-1 min-h-[100vh] pb-[15vh] relative">
       <div className="flex items-center justify-between p-5 text-xl text-gray-400">
@@ -32,7 +31,7 @@ const GeminiBody = () => {
             <div className="my-12 text-5xl font-medium p-5">
               <p>
                 <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-                  Hello, Mehtab kazmi
+                  Hello, KevSalom Dev
                 </span>
               </p>
               <p>How can I help you today?</p>
@@ -74,7 +73,7 @@ const GeminiBody = () => {
               <CircleUserRound size={40} className="text-softTextColor" />
               <p>{recentPrompts}</p>
             </div>
-            <div className="flex items-start gap-5">
+            <div className="flex items-start gap-5 max-h-[55vh] overflow-y-scroll ">
               <img src="/gemini.png" alt="" />
               <p
                 className="text-md font-normal loading-6 text-gray-400"

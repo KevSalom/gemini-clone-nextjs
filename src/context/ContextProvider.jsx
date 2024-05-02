@@ -16,7 +16,7 @@ const ContextProvider = ({ children }) => {
   const paragraphDelay = (index, newWord) => {
     setTimeout(() => {
       setResult((prev) => prev + newWord);
-    }, 70 * index);
+    }, 75 * index);
   };
   // on submit
   const submit = async (prompt) => {
