@@ -73,7 +73,7 @@ const GeminiBody = () => {
               <CircleUserRound size={40} className="text-softTextColor" />
               <p>{recentPrompts}</p>
             </div>
-            <div className="flex items-start gap-5 max-h-[55vh] overflow-y-auto hover:overflow-y-scroll ">
+            <div className="flex items-start gap-5 max-h-[55vh] overflow-y-auto">
               <img src="/gemini.png" alt="" />
               <p
                 className="text-md font-normal leading-loose text-gray-400"
